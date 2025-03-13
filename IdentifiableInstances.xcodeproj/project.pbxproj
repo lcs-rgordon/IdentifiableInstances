@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		81A8458F2D83119C00C4D169 /* StudentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8458C2D83119C00C4D169 /* StudentsListView.swift */; };
+		81A845902D83119C00C4D169 /* IdentifiableInstancesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8458D2D83119C00C4D169 /* IdentifiableInstancesApp.swift */; };
+		81A845912D83119C00C4D169 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A845892D83119C00C4D169 /* Preview Assets.xcassets */; };
+		81A845922D83119C00C4D169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8458B2D83119C00C4D169 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		81A845782D83119000C4D169 /* IdentifiableInstances.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdentifiableInstances.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A845892D83119C00C4D169 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81A8458B2D83119C00C4D169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81A8458C2D83119C00C4D169 /* StudentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsListView.swift; sourceTree = "<group>"; };
+		81A8458D2D83119C00C4D169 /* IdentifiableInstancesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableInstancesApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		81A8457A2D83119000C4D169 /* IdentifiableInstances */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = IdentifiableInstances;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		81A845752D83119000C4D169 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		81A8456F2D83119000C4D169 = {
 			isa = PBXGroup;
 			children = (
-				81A8457A2D83119000C4D169 /* IdentifiableInstances */,
+				81A8458E2D83119C00C4D169 /* IdentifiableInstances */,
 				81A845792D83119000C4D169 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				81A845782D83119000C4D169 /* IdentifiableInstances.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		81A8458A2D83119C00C4D169 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81A845892D83119C00C4D169 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81A8458E2D83119C00C4D169 /* IdentifiableInstances */ = {
+			isa = PBXGroup;
+			children = (
+				81A8458D2D83119C00C4D169 /* IdentifiableInstancesApp.swift */,
+				81A845932D83119F00C4D169 /* Views */,
+				81A8458A2D83119C00C4D169 /* Preview Content */,
+				81A8458B2D83119C00C4D169 /* Assets.xcassets */,
+			);
+			path = IdentifiableInstances;
+			sourceTree = "<group>";
+		};
+		81A845932D83119F00C4D169 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81A8458C2D83119C00C4D169 /* StudentsListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				81A8457A2D83119000C4D169 /* IdentifiableInstances */,
 			);
 			name = IdentifiableInstances;
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A845912D83119C00C4D169 /* Preview Assets.xcassets in Resources */,
+				81A845922D83119C00C4D169 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A8458F2D83119C00C4D169 /* StudentsListView.swift in Sources */,
+				81A845902D83119C00C4D169 /* IdentifiableInstancesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
